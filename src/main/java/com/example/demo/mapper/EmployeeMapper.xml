@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.EmployeeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="employeeResultMap" type="com.example.demo.entity.Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="gender" property="gender"/>
+        <result column="birthday" property="birthday"/>
+        <result column="nation" property="nation"/>
+        <result column="nativeplace" property="nativeplace"/>
+        <result column="birthplace" property="birthplace"/>
+        <result column="idcard" property="idcard"/>
+        <result column="work_time" property="workTime"/>
+        <result column="politics_status" property="politicsStatus"/>
+        <result column="education" property="education"/>
+        <result column="work_unit" property="workUnit"/>
+        <result column="position_rank" property="positionRank"/>
+        <result column="grant_rewards" property="grantRewards"/>
+        <result column="honors_awards" property="honorsAwards"/>
+        <result column="resume" property="resume"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+</mapper>
